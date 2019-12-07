@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: Sobre mí
 permalink: /about/
 ---
 
 Desarrollando software desde 2013
 
-### Contact me
+### Contacto
 
 [diegolopezperez91@gmail.com](mailto:diegolopezperez91@gmail.com)
