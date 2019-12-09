@@ -1,0 +1,27 @@
+I" <p>De todos es conocido que Git es sistema de control de versiones más conocido y usado en el mundo. Aquí os dejo un pequeño cheatsheet para usar los comandos que personalmente más suelo usar.</p>
+
+<div align="center">
+  <img src="https://dielop101.github.io/images/gitCommands.png" />
+</div>
+<p>Os voy a recoger lo que para mí son los 5 puntos principales para realizar revisiones de código rápidas, fiables y que no generen controversia.</p>
+
+<h2 id="1-entiendo-luego-comento">1. Entiendo, luego comento</h2>
+<p>Antes de empezar a revisar el código, conviene comprender el contexto de la Pull Request. Evitarás comentarios innecesarios que en la mayoría de casos se resuelven leyendo el funcional.</p>
+
+<h2 id="2-no-impongas-tu-visión">2. No impongas tu visión</h2>
+<p>Abre espacio al diálogo e invita a la otra persona a ver tu punto de vista. Recuerda que estás en un foro de discusión.</p>
+<div align="center">
+<i>Cambia el nombre de la variable, no tiene contexto</i>
+<br />&darr;<br />
+<i>Creo que la variable tendría más contexto si...</i>
+</div>
+
+<h2 id="3-define-puntos-de-criticidad">3. Define puntos de criticidad</h2>
+<p>Establece junto a tu equipo una serie de reglas a la hora de revisar código y define una prioridad. Tiene más criticidad comentar un posible bug que comentar un refactor de naming de variables. A menos tiempo para que el código a revisar tenga que estar en producción, más foco en los puntos críticos.</p>
+
+<h2 id="4-regla-de-los-2-párrafos">4. Regla de los 2 párrafos</h2>
+<p>Si en algún comentario recibes una respuesta de 2 o más párrafos, por lo general no vas a resolver el comentario en la siguiente interacción. Es por tanto más óptimo juntarse, realizando una llamada o abrir un chat y llegar a un consenso.</p>
+
+<h2 id="5-discusión-a-3">5. Discusión a 3</h2>
+<p>En el caso de encontrarte en una discusión en el cual ambos puntos de vista sean dispares, busca a una tercera persona que pueda intermediar en la discusión. Recuerda que el objetivo es no invertir más que el tiempo justo y necesario.</p>
+:ET
