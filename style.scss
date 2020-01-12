@@ -332,6 +332,41 @@ pre {
   margin-bottom: 30px;
 }
 
+.typewriter {
+  width: fit-content;
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-family: "Courier New";
+  animation: 
+    typing 1.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+  @include mobile {
+  animation: 
+    typingmobile 1.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typing effect mobile */
+@keyframes typingmobile {
+  from { width: 0 }
+  to { width: 270px }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
