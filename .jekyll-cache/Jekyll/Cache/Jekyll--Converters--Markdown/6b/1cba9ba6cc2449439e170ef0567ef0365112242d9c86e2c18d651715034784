@@ -1,0 +1,106 @@
+I"�<p>Seguro que más de una vez has puesto en duda la utilidad de los tests que realizas. Sientes que el tiempo dedicado es realmente alto en comparación con el coste del desarrollo y, para colmo, tras pasar toda una jornada laboral realizándolos, esa controvertida métrica que tantos dolores de cabeza da, como es el <i>code average</i>, no sube más del 20%…</p>
+
+<p>Con este post, voy a contaros un patrón que personalmente me ayudó a quitar esa sensación de “pereza” a la hora de realizar pruebas unitarias.</p>
+
+<h2 id="problemas-en-los-tests">Problemas en los tests</h2>
+<ul>
+  <li>No existe una estructura de código base preparada. Y con código incluyo ni siquiera existir proyecto creado</li>
+  <li>Ficheros de código enormes donde no se modulariza nada</li>
+  <li>No se aplican ningún tipo de estrategia ni arquitecturas conocidas</li>
+  <li>Nombrado de los tests/variables sin contexto</li>
+  <li>Duplicidad de código</li>
+</ul>
+
+<p>La sensación es que los tests están un paso por detrás en cuanto a exigencia de calidad de código con respecto al desarrollo funcional en sí.</p>
+
+<p>Un patrón de diseño que me ha ayudado a optimizar mis tiempos a la hora de realizar los tests y a mantener una limpieza y orden en el código es el patrón <b>ObjectMother</b>.</p>
+
+<h2 id="objectmother">ObjectMother</h2>
+<p>Su definición es sencilla: se basa en un sistema de retorno de objetos con características específicas para pasar a nuestros componentes o servicios que vayamos a testear. Hablando en términos de implementación, se puede ver como una clase que retorna, normalmente mediante un patrón Factory, objetos específicos.</p>
+
+<h2 id="mejoras">Mejoras</h2>
+<ul>
+  <li>Centralizar los objetos</li>
+  <li>Delegar en un tercero la responsabilidad de crear los objetos</li>
+  <li>Reducir la posibilidad de código duplicado, ya que suele ser habitual compartir entre diferentes tests objetos con similares características</li>
+  <li>Mejora la sintáxis en el nombrado de los objetos</li>
+  <li>Tener una estructura de código base preparado, evitando el tener que crear de cero los datos</li>
+</ul>
+
+<h2 id="construcción">Construcción</h2>
+<p>Dependiendo de lo complejo que sea nuestro entorno a testear, podemos tener:</p>
+<ul>
+  <li>De 1 a N ObjectMothers</li>
+  <li>Desde 1 clase a 1 proyecto o N proyectos</li>
+</ul>
+
+<p>La decisión dependerá de cómo se intuya que vaya a crecer el dominio de la aplicación.</p>
+
+<h2 id="ejemplo">Ejemplo</h2>
+<p>Supongamos que tenemos un servicio que calcule el riesgo de dar un crédito a una persona. Las especificaciones nos indican que:</p>
+<ul>
+  <li>Si no trabajas, el sistema devolverá 50% de riesgo.</li>
+  <li>En caso contrario, 0%</li>
+</ul>
+
+<p>Además, la edad también afectará en el cálculo, ya que no trabajar teniendo una edad superior a 50 años, incrementará el riesgo a 75%.</p>
+
+<p>El servicio recibirá una entidad <em>Person</em>, siendo uno de sus atributos <em>Age</em> y otro <em>HasJob</em>.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">Person</span>
+<span class="p">{</span>
+	<span class="k">public</span> <span class="nf">Person</span><span class="p">(</span><span class="kt">bool</span> <span class="n">hasJob</span><span class="p">,</span> <span class="kt">int</span> <span class="n">age</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">HasJob</span> <span class="p">=</span> <span class="n">hasJob</span><span class="p">;</span>
+		<span class="n">Age</span> <span class="p">=</span> <span class="n">age</span><span class="p">;</span>
+	<span class="p">}</span>
+
+	<span class="k">public</span> <span class="kt">int</span> <span class="n">Age</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+	<span class="k">public</span> <span class="kt">bool</span> <span class="n">HasJob</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">set</span><span class="p">;</span> <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>¿Cómo sería nuestro ObjectMother de la entidad <em>Person</em>?</p>
+
+<p>Crearemos una clase llamada <em>PersonMother</em> que contendrá los métodos que devolverán objetos <em>Person</em>.</p>
+
+<p>Una posibilidad sería tener un método que devuelva un objeto <em>Person</em> genérico y que reciba como parámetros si trabaja y su edad.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="n">Person</span> <span class="nf">CreatePerson</span><span class="p">(</span><span class="kt">bool</span> <span class="n">hasJob</span><span class="p">,</span> <span class="kt">int</span> <span class="n">age</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">return</span> <span class="k">new</span> <span class="nf">Person</span><span class="p">(</span><span class="n">hasJob</span><span class="p">,</span> <span class="n">age</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>A partir de este método, podemos tener una función que devuelva una persona con trabajo.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="n">Person</span> <span class="nf">CreatePersonWithJob</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="k">return</span> <span class="nf">CreatePerson</span><span class="p">(</span><span class="k">true</span><span class="p">,</span> <span class="m">30</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>De nuevo, construiremos a partir de este segundo método otro que devuelva una persona sin trabajo y, sobre este método, otro nuevo que además tenga en cuenta una edad superior a 50.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="n">Person</span> <span class="nf">CreatePersonWithoutJob</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="kt">var</span> <span class="n">person</span> <span class="p">=</span> <span class="nf">CreatePersonWithJob</span><span class="p">();</span>
+	<span class="n">person</span><span class="p">.</span><span class="n">HasJob</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+
+	<span class="k">return</span> <span class="n">person</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">public</span> <span class="k">static</span> <span class="n">Person</span> <span class="nf">CreatePersonWithoutJobAndAgeRisk</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="kt">var</span> <span class="n">person</span> <span class="p">=</span> <span class="nf">CreatePersonWithoutJob</span><span class="p">();</span>
+	<span class="n">person</span><span class="p">.</span><span class="n">Age</span> <span class="p">=</span> <span class="m">60</span><span class="p">;</span>
+
+	<span class="k">return</span> <span class="n">person</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="conclusiones">Conclusiones</h2>
+<p>Hay diferentes maneras de crear un ObjectMother, pero la esencia es la misma: centralizar y dar la funcionalidad necesaria para crear objetos con las características específicas que el negocio requiera.</p>
+
+<p>Cualquier duda o sugerencia, estoy disponible en mis redes sociales :)</p>
+:ET
