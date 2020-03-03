@@ -9,7 +9,7 @@ name: Diego López
 description: Desarrollador .NET
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/profile.jfif
+avatar: /images/profile.jfif
 
 #
 # Flags below are optional
