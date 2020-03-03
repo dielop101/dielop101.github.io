@@ -121,7 +121,6 @@ Definimos la arquitectura, cargando todos los assemblies:
                 typeof(Domain).Assembly,
                 typeof(Infrastructure).Assembly)
             .Build();
-
 ```
 
 Definimos las capas:
@@ -135,7 +134,6 @@ private readonly IObjectProvider<IType> DomainLayer =
 	ArchRuleDefinition.Types().That().ResideInNamespace("Domain").As("Domain Layer");
 private readonly IObjectProvider<IType> InfrastructureLayer =
 	ArchRuleDefinition.Types().That().ResideInNamespace("Infrastructure").As("Infrastructure Layer");
-
 ```
 
 Para cada test, definimos sus reglas, las combinamos y ejecutamos sobre la arquitectura:
