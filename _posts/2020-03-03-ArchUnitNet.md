@@ -7,9 +7,12 @@ Es probable que en más de una ocasión te hayas saltado de manera accidental la
 
 Para nuestra suerte, existe una solución automática que, a través de test unitarios, podría ahorraros mucho tiempo a la hora de salvaguardar la arquitectura. Esta solución se llama <a href="https://www.archunit.org/" target="_blank">ArchUnit</a>, disponible para Java. No obstante, ya existe una solución OpenSource denominada <a href="https://github.com/TNG/ArchUnitNET" target="_blank">ArchUnitNET</a>, de la cual hablaré en este post.
 
+<br />
+<br />
 <div align="center">
   <img src="/images/ArchUnitNET/ArchUnit-Logo.png"/>
 </div>
+<br />
 
 ## ¿Qué es ArchUnitNET?
 Primero, tenemos que conocer qué es ArchUnit. Tal y como define en su web:
