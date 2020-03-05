@@ -5,7 +5,7 @@ title: Salvaguarda la arquitectura con ArchUnitNet
 
 Es probable que en más de una ocasión te hayas saltado de manera accidental la arquitectura de tu solución, o estándares de programación fijados dentro de la empresa que, con suerte, lograrás detectarlos y pararlos manualmente gracias a procesos ya conocidos como las *Pull Request*.
 
-Para nuestra suerte, existe una solución automática que, a través de test unitarios, podría ahorraros mucho tiempo a la hora de salvaguardar la arquitectura. Esta solución se llama <a href="https://www.archunit.org/" target="_blank">ArchUnit</a>, disponible para Java. No obstante, ya existe una solución OpenSource denominada <a href="https://github.com/TNG/ArchUnitNET" target="_blank">ArchUnitNET</a>, de la cual hablaré en este post.
+Para nuestra suerte, existe una solución automática que, a través de herramientas de testing, podría ahorraros mucho tiempo a la hora de salvaguardar la arquitectura. Esta solución se llama <a href="https://www.archunit.org/" target="_blank">ArchUnit</a>, disponible para Java. No obstante, ya existe una solución OpenSource denominada <a href="https://github.com/TNG/ArchUnitNET" target="_blank">ArchUnitNET</a>, de la cual hablaré en este post.
 
 <br />
 <br />
