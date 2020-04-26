@@ -98,7 +98,7 @@ sudo apt-get install dotnet-sdk-3.1
 
 Comprobamos que se ha instalado correctamente, ejecutando <i> dotnet --version</i>.
 
-##Creación aplicación Blazor WebAssembly
+## Creación aplicación Blazor WebAssembly
 Una vez tenemos dotnet instalado, tocará instalar la plantilla de WebAssembly de Blazor WebAssembly, que será la que utilicemos para nuestro ejemplo. Para ello, seguiremos los acciones descritas en el siguiente <a 
 href="ttps://docs.microsoft.com/es-es/aspnet/core/blazor/get-started?view=aspnetcore-3.1&tabs=visual-studio" target="_blank">link</a>.
 
