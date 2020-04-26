@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Desplegando Blazor WebAssembly a coste cero
+title: Desplegando Blazor WebAssembly a coste 0
 ---
 
 ¿Es posible hoy en día desplegar una aplicación .NET a coste 0? Pues claro que sí. Hoy os traigo los pasos para poder desplegar exactamente una aplicación Blazor WebAssembly en un servidor Ubuntu y que sea accesible a través del navegador de manera pública.
