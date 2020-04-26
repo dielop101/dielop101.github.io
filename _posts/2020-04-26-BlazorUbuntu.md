@@ -5,8 +5,6 @@ title: Desplegando Blazor WebAssembly a coste 0
 
 ¿Es posible hoy en día desplegar una aplicación .NET a coste 0? Pues claro que sí. Hoy os traigo los pasos para poder desplegar exactamente una aplicación Blazor WebAssembly en un servidor Ubuntu y que sea accesible a través del navegador de manera pública.
 
-<br />
-<br />
 <div align="center">
   <img src="/images/BlazorUbuntu/00-dotnet.png"/>
 </div>
@@ -14,7 +12,8 @@ title: Desplegando Blazor WebAssembly a coste 0
 
 ## Virtualización
 Lo primero que tendremos que hacer será conseguir el software que nos permitirá virtualizar nuestro servidor en nuestra propia máquina. Para ello, yo utilizo <a 
-href="https://www.vmware.com/es.html" target="_blank">VMware</a>. VMware es un programa que simula un sistema físico (un computador, un hardware) con unas características de hardware determinadas. Como el objetivo es conseguirlo a coste 0, podemos descargar la versión gratuita desde el siguiente <a 
+href="https://www.vmware.com/es.html" target="_blank">VMware</a>. 
+VMware es un programa que simula un sistema físico (un computador, un hardware) con unas características de hardware determinadas. Como el objetivo es conseguirlo a coste 0, podemos descargar la versión gratuita desde el siguiente <a 
 href="https://www.vmware.com/es/products/workstation-player/workstation-player-evaluation.html" target="_blank">link</a>.
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/BlazorUbuntu/01-VMware.png"/>
@@ -126,7 +125,7 @@ Con esto, ya tenemos la aplicación creada. Si accedemos a la carpeta creada con
   <div><i>dotnet run</i></div>
 </div>
 
-##Modificación acceso aplicación Blazor WebAssembly
+## Modificación acceso aplicación Blazor WebAssembly
 En primera instancia, la aplicación se levanta sobre localhost. Esto quiere decir que sólo es accesible desde nuestra propia máquina virtual. Como esto no nos vale, tendremos que cambiar el despliegue para que se lance sobre la IP 0.0.0.0:
 
 En el fichero de configuración appsettings.json que tenemos en la propia carpeta "Server", tenemos que añadir la siguiente configuración:
@@ -159,7 +158,7 @@ Ahora sí, desde cualquier navegador dentro de la red, podremos acceder a travé
   <div><i>Blazor app</i></div>
 </div>
 
-##ngrok
+## ngrok
 Para dar acceso a nuestra máquina a cualquier navegador de internet, utilizaremos la aplicación <a 
 href="https://ngrok.com/" target="_blank">ngrok</a>. Esta aplicación nos facilitará un túnel para exponer nuestra aplicación web a internet y un nombre para poder acceder a la misma. Todo ello, de manera gratuita.
 
