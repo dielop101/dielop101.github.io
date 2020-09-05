@@ -3,11 +3,11 @@ layout: post
 title: Los must (y no tan must) del líder técnico
 ---
 
-A nadie le sonará raro hoy en día oír la palabra "líder técnico" (o teach lead) en cualquier empresa tecnológica para definir el rol o cargo de una persona. Normalmente, se suele asignar el rol a una persona veterana (posiblemente alguien interno de la empresa), con mucha experiencia en el campo técnico y conocedor del negocio, con alta capacidad resolutiva y de gestión de equipo.
+A nadie le sonará raro hoy en día oír la palabra "líder técnico" (o teach lead) en cualquier empresa tecnológica para definir el rol o cargo de una persona. Normalmente, se suele asignar el rol o cargo a una persona veterana (posiblemente alguien interno de la empresa), con mucha experiencia en el campo técnico y conocedor del negocio, con alta capacidad resolutiva y de gestión de equipo.
 
-Por desgracia, a la hora de asignar este rol o cargo, se pone mayor hincapié en la palabra "técnico" que en la palabra "líder", lo que abre la posibilidad a que el líder ejerza el liderato detestable en cualquier ámbito, sea tecnológico o no: un liderato por la fuerza. La persona que ejerza dicho liderato tendrá los días contados, ya que no tendrá la simpatía de su equipo y, en consecuencia, no tendrá seguidores. 
+Por desgracia, a la hora de asignar este rol o cargo, se hace mayor hincapié en la palabra "técnico" que en la palabra "líder", lo que abre la posibilidad a que el líder ejerza el liderato detestable en cualquier ámbito, sea tecnológico o no: un liderato por la fuerza. La persona que ejerza dicho liderato tendrá los días contados, ya que no tendrá la simpatía de su equipo y, en consecuencia, no tendrá seguidores. 
 
-Dicho de otro modo, el liderato sano y que deberíamos buscar es aquél que tenga el consentimiento y la simpatía del resto del equipo, y por tanto genere seguidores.
+Dicho de otro modo, el liderato sano y que deberíamos proyectar es aquél que tenga el consentimiento y la simpatía del resto del equipo, y por tanto genere seguidores.
 
 <div align="center">
   <img src="https://dielop101.github.io/images/lider.jpg"/>
