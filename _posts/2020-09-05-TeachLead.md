@@ -82,7 +82,7 @@ Las personas que insisten demasiado en su título normalmente no tienen mucho m�
 
 
 ## Conclusiones
-El título de líder técnico es cotizado en el mundo tecnológico. Leyendo el famoso libro de Napoleon Hill: <a href="https://www.amazon.es/Piense-y-h%C3%A1gase-rico-EXITO/dp/8497778219" target="_blank">piense y hágase rico</a>, veo que el término de líder está muy diluído en nuestro sector, y que se prioriza el concepto técnico más que el humano. Además, el libro, redactado en 1937, hace ver cómo los líderes en aquél período tan complejo (salida y reestructuración de la Gran Depresión) eran igual de necesarios y con las mismas características que lo son ahora. 
+El título de líder técnico es cotizado en el mundo tecnológico. Leyendo el famoso libro de Napoleon Hill: <a href="https://www.amazon.es/Piense-y-h%C3%A1gase-rico-EXITO/dp/8497778219" target="_blank">piense y hágase rico</a>, veo que el término de líder está muy diluído en nuestro sector, y que se prioriza el concepto técnico más que el humano. Además, el libro, redactado en 1937, hace ver cómo los líderes en aquél período tan complejo (salida y reestructuración de la Gran Depresión) eran igual de necesarios y con las mismas características que lo son ahora (el contenido del artículo proviene del libro). 
 
 Cualquier duda o sugerencia, estoy disponible en mis redes sociales :)
 
