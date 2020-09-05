@@ -9,13 +9,9 @@ Por desgracia, a la hora de asignar este rol o cargo, se pone mayor hincapié en
 
 Dicho de otro modo, el liderato sano y que deberíamos buscar es aquél que tenga el consentimiento y la simpatía del resto del equipo, y por tanto genere seguidores.
 
-
 <div align="center">
   <img src="https://dielop101.github.io/images/lider.jpg"/>
 </div>
-
-
-Voy a recoger en los siguientes apartados, claves que debe tener un líder y claves que no debería poseer, para poder ser un líder ejemplar.
 
 ## MUST HAVE
 
@@ -86,7 +82,9 @@ Las personas que insisten demasiado en su título normalmente no tienen mucho m�
 
 
 ## Conclusiones
-El título de líder técnico es cotizado en el mundo tecnológico. Leyendo el famoso libro de Napoleon Hill: piense y hágase rico, vi que el término de líder está muy diluído en nuestro sector, y que se prioriza el concepto técnico más que el concepto humano. Además, el libro, redactado en 1937, hace ver cómo los líderes en aquél período tan complejo (salida y restructuración de la Gran Depresión) eran igual de necesarios y con las mismas características que lo son ahora. Cualquier duda o sugerencia, estoy disponible en mis redes sociales :)
+El título de líder técnico es cotizado en el mundo tecnológico. Leyendo el famoso libro de Napoleon Hill: <a href="https://www.amazon.es/Piense-y-h%C3%A1gase-rico-EXITO/dp/8497778219" target="_blank">piense y hágase rico</a>, veo que el término de líder está muy diluído en nuestro sector, y que se prioriza el concepto técnico más que el humano. Además, el libro, redactado en 1937, hace ver cómo los líderes en aquél período tan complejo (salida y reestructuración de la Gran Depresión) eran igual de necesarios y con las mismas características que lo son ahora. 
+
+Cualquier duda o sugerencia, estoy disponible en mis redes sociales :)
 
 
 
