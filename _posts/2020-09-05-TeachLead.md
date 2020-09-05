@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Los must have (y no tan must) del líder técnico
+title: Los must (y no tan must) del líder técnico
 ---
 
 A nadie le sonará raro hoy en día oír la palabra "líder técnico" (o teach lead) en cualquier empresa tecnológica para definir el rol o cargo de una persona. Normalmente, se suele asignar el rol a una persona veterana (posiblemente alguien interno de la empresa), con mucha experiencia en el campo técnico y conocedor del negocio, con alta capacidad resolutiva y de gestión de equipo.
