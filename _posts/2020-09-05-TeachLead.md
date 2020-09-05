@@ -1,19 +1,23 @@
 ---
 layout: post
-title: Los must have (y no tan must) de todo líder técnico
+title: Los must have (y no tan must) del líder técnico
 ---
 
 A nadie le sonará raro hoy en día oír la palabra "líder técnico" (o teach lead) en cualquier empresa tecnológica para definir el rol o cargo de una persona. Normalmente, se suele asignar el rol a una persona veterana (posiblemente alguien interno de la empresa), con mucha experiencia en el campo técnico y conocedor del negocio, con alta capacidad resolutiva y de gestión de equipo.
 
-Por desgracia, a la hora de asignar este rol o cargo, se pone mayor hincapié en la palabra "técnico" que en la palabra "líder", lo que abre la posibilidad a que el líder ejerza el liderato detestable en cualquier ámbito, sea tecnológico o no: un liderato por la fuerza. La persona que ejerza dicho liderato tendrá los días contados, ya que no tendrá la simpatía de su equipo y, en consecuencia, no tendrá seguidores. Dicho de otro modo, el liderato sano y que deberíamos buscar es aquél que tenga el consentimiento y la simpatía del resto del equipo, y por tanto genere seguidores.
+Por desgracia, a la hora de asignar este rol o cargo, se pone mayor hincapié en la palabra "técnico" que en la palabra "líder", lo que abre la posibilidad a que el líder ejerza el liderato detestable en cualquier ámbito, sea tecnológico o no: un liderato por la fuerza. La persona que ejerza dicho liderato tendrá los días contados, ya que no tendrá la simpatía de su equipo y, en consecuencia, no tendrá seguidores. 
+
+Dicho de otro modo, el liderato sano y que deberíamos buscar es aquél que tenga el consentimiento y la simpatía del resto del equipo, y por tanto genere seguidores.
+
 
 <div align="center">
   <img src="https://dielop101.github.io/images/lider.jpg"/>
 </div>
 
+
 Voy a recoger en los siguientes apartados, claves que debe tener un líder y claves que no debería poseer, para poder ser un líder ejemplar.
 
-##MUST HAVE
+## MUST HAVE
 
 ### 1. Valentía inquebrantable
 Debe tener autoconfianza y tener coraje, ya que confía en su conocimiento técnico. Ningún seguidor desea que lo domine un líder sin valentía.
@@ -48,7 +52,7 @@ Debe estar dispuesto a asumir toda responsabilidad de los errores y fallos de su
 ### 11. Cooperación
 El liderazgo requiere poder, y el poder necesita cooperación.
 
-##MUSTN'T HAVE
+## MUSTN'T HAVE
 
 ### 1. Incapaz de organizar los detalles
 Cuando una persona admite que está "demasiado ocupada" para modificar su plan o prestar atención a cualquier emergencia, admite su incompetencia. Un líder debe adquirir el hábito de delegar los detalles a su equipo.
