@@ -6,7 +6,7 @@ title: ¡Adiós Javascript, hola Blazor!
 ¿Y si te digo que existe un framework capaz de alcanzar toda la potencia de un SPA moderno, pero sin entrar en contacto como desarrollador con Javascript? Pues sí, como habrás intuido, esto es lo que nos ofrece Blazor. ¿Quiere decir entonces que ya podremos olvidar de Javascript? Bueno, pero vayamos por partes.
 
 <div align="center">
-  <img src="/images/blazor/blazor.jpg"/>
+  <img src="/images/Blazor/blazor.jpg"/>
 </div>
 
 ## ¿Qué es Blazor?
@@ -25,7 +25,7 @@ Es conveniente conocer los dos grandes enfoques que presenta Blazor:
 </ul>
 
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/blazor-webassembly.png"/>
+  <img src="/images/Blazor/blazor-webassembly.png"/>
   <i>Blazor WebAssembly</i>
 </div>
 
@@ -51,7 +51,7 @@ Como opción de alojamiento seleccionaremos Azure, concretamente usaremos los se
 </ul>
 
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/diagram.png"/>
+  <img src="/images/Blazor/diagram.png"/>
   <i>Diagrama App Blazor en Azure</i>
 </div>
 
@@ -62,7 +62,7 @@ Como versión de .NET usaremos .NET Core 3.1, ya que está tanto soportado en Ap
 Una vez clara la infraestructura, vamos a ver cómo organizamos la arquitectura de la aplicación:
 
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/sln.png"/>
+  <img src="/images/Blazor/sln.png"/>
   <i>Diagrama App Blazor en Azure</i>
 </div>
 
@@ -93,19 +93,19 @@ El despliegue con Visual Studio y Azure se vuelve de lo más trivial. Usaremos e
 
 Para la conexión a la base de datos, desde el servicio de Azure App Service se ofrece la posibilidad de crear configuraciones. Podemos coger la ruta de conexión a la base de datos del servicio de Azure SQL Server y establecerla como configuración en App Service.
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/publish.png"/>
+  <img src="/images/Blazor/publish.png"/>
   <i>Publicación de la aplicación en App Service y SQL Server</i>
 </div>
 
 ### Funcionando, que es gerundio
 En la primera petición al servidor, vemos cómo nos devuelve todas las dlls necesarias para la correcta ejecución:
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/dlls.png"/>
+  <img src="/images/Blazor/dlls.png"/>
 </div>
 
 Si seleccionamos una respuesta, vemos cómo va al servidor a guardar la respuesta que ha seleccionado el usuario, enviando la mínima información indispensable:
 <div align="center" style="margin-bottom: 25px;">
-  <img src="/images/blazor/post.png"/>
+  <img src="/images/Blazor/post.png"/>
 </div>
 
 Con ello, ofrecemos al usuario una interacción más enriquecida con nuestra aplicación.
