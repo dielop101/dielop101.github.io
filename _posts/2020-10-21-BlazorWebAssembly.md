@@ -63,7 +63,7 @@ Una vez clara la infraestructura, vamos a ver cómo organizamos la arquitectura 
 
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/Blazor/sln.png"/>
-  <i>Diagrama App Blazor en Azure</i>
+  <i>Solución proyecto real</i>
 </div>
 
 Como vemos, contamos con un proyecto para el lado servidor, que nos va a mantener los procesamientos de lógicas que no queremos llevar al cliente (por ejemplo, comprobar qué respuesta es correcta), mientras que otros quedarán del lado del cliente (por ejemplo, saber qué pregunta toca mostrar al usuario). Esto también nos permite desacoplar parte front-end de la parte back-end, con los beneficios que ello conlleva.
