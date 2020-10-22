@@ -98,17 +98,17 @@ Para la conexión a la base de datos, desde el servicio de Azure App Service se 
 </div>
 
 ### Funcionando, que es gerundio
-En la primera petición al servidor, vemos cómo nos devuelve todas las dlls necesarias para la correcta ejecución:
+En la primera petición al servidor, observamos cómo nos devuelve todas las liberías compiladas necesarias para la correcta ejecución:
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/Blazor/dlls.png"/>
 </div>
 
-Si seleccionamos una respuesta, vemos cómo va al servidor a guardar la respuesta que ha seleccionado el usuario, enviando la mínima información indispensable:
+Si seleccionamos una respuesta, vemos cómo realiza la petición al servidor para guardar la respuesta que ha seleccionado el usuario, enviando la información indispensable:
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/Blazor/post.png"/>
 </div>
 
-Con ello, ofrecemos al usuario una interacción más enriquecida con nuestra aplicación.
+Con ello, ofrecemos al usuario una interacción más enriquecida, sin prácticamente esperas.
 
 ## Conclusiones
 Blazor y en especial Blazor WebAssembly ha venido para quedarse. Es un framework muy completo que Microsoft está apostando fuerte para desarrollos en los que se requiera una alta carga de desarrollo frond-end, en especial si se requieren interfaces muy enriquecidas e interactivas para el usuario. Si triunfará o no, sólo el tiempo lo dirá. Lo que es seguro es que, a cada nuevo proyecto que se os plantee, tendréis que meter en la ecuación de frameworks a utilizar la variable "Blazor".
