@@ -3,7 +3,7 @@ layout: post
 title: ¡Adiós Javascript, hola Blazor!
 ---
 
-¿Y si te digo que existe un framework capaz de alcanzar toda la potencia de un SPA moderno, pero sin entrar en contacto como desarrollador con Javascript? Pues sí, como habrás intuido, esto es lo que nos ofrece Blazor. ¿Quiere decir entonces que ya podremos olvidar de Javascript? Bueno, pero vayamos por partes.
+¿Y si te digo que existe un framework capaz de alcanzar toda la potencia de un SPA moderno pero sin entrar en contacto con código Javascript, sólamente usando C#? Pues sí, existe; y como habrás intuido, esto es lo que nos ofrece Blazor. ¿Quiere decir entonces que ya  podemos olvidarnos de Javascript? Bueno, vayamos por partes.
 
 <div align="center">
   <img src="/images/Blazor/blazor.jpg"/>
@@ -12,7 +12,7 @@ title: ¡Adiós Javascript, hola Blazor!
 ## ¿Qué es Blazor?
 Blazor es un proyecto de Microsoft que nace bajo la necesidad de proveer un framework que permita desarrollar Single Page Applications (SPA) para los desarrolladores .NET, usando como lenguajes de programación C# y Razor.
 
-El objetivo de Microsoft está claro: competir en el mundo de los SPA a través de un framework con una curva de aprendizaje prácticamente nula para los desarrolladores .NET, abstrayendo la complejidad que requiere lidiar con frameworks basados en Javascript. En consecuencia, se construirán aplicaciones web enriquecidas usando únicamente HTML, CSS y C# en lugar de Javascript. El sueño del desarrollador .Net.
+El objetivo de Microsoft está claro: competir en el mundo de los SPA a través de un framework con una curva de aprendizaje prácticamente nula para los desarrolladores .NET, abstrayendo la complejidad que requiere el tener que lidiar con frameworks basados en Javascript. En consecuencia, se construirán aplicaciones web enriquecidas usando únicamente HTML, CSS y C# en lugar de Javascript. El sueño del desarrollador .NET.
 
 ¿Pero, cómo es posible esto? Primero vamos a ver los diferentes modelos que nos ofrece Blazor:
 
@@ -20,7 +20,7 @@ El objetivo de Microsoft está claro: competir en el mundo de los SPA a través 
 Es conveniente conocer los dos grandes enfoques que presenta Blazor:
 
 <ul>
-	<li> Blazor Server: modelo más tradicional, en el cual se prepara en el servidor la interfaz a enviar al cliente. Permite una interacción sencilla entre cliente y servidor a través de SignalR (socket que permanecerá abierto entre el cliente y el servidor para la transmisión de información). Se enfoca sobre todo como sustituto de los Web Forms de .NET.</li>
+	<li> Blazor Server: modelo más tradicional, en el cual se prepara en el servidor la interfaz a enviar al cliente. Permite una interacción en tiempo real sencilla entre cliente y servidor a través de SignalR. Se enfoca sobre todo como sustituto de los Web Forms de .NET.</li>
 	<li> Blazor WebAssembly:  modelo SPA basado en WebAssembly. Da la posibilidad de realizar operaciones en el lado del servidor o llamar a APIs para solicitar datos, para salvaguardar información que quizás no quieras que se ejecute en el cliente. Para entender esto, hay que entender en qué consiste WebAssembly. </li>
 </ul>
 
@@ -98,19 +98,19 @@ Para la conexión a la base de datos, desde el servicio de Azure App Service se 
 </div>
 
 ### Funcionando, que es gerundio
-En la primera petición al servidor, vemos cómo nos devuelve todas las dlls necesarias para la correcta ejecución:
+En la primera petición al servidor, observamos cómo nos devuelve todas las liberías compiladas necesarias para la correcta ejecución:
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/Blazor/dlls.png"/>
 </div>
 
-Si seleccionamos una respuesta, vemos cómo va al servidor a guardar la respuesta que ha seleccionado el usuario, enviando la mínima información indispensable:
+Si seleccionamos una respuesta, vemos cómo realiza la petición al servidor para guardar la respuesta que ha seleccionado el usuario, enviando la información indispensable:
 <div align="center" style="margin-bottom: 25px;">
   <img src="/images/Blazor/post.png"/>
 </div>
 
-Con ello, ofrecemos al usuario una interacción más enriquecida con nuestra aplicación.
+Con ello, ofrecemos al usuario una interacción más enriquecida, sin prácticamente esperas.
 
 ## Conclusiones
-Blazor y en especial Blazor WebAssembly ha venido para quedarse. Es un framework muy completo que Microsoft está apostando fuerte para desarrollos en los que se requiera una alta carga de desarrollo frond-end, en especial si se requieren interfaces muy enriquecidas e interactivas para el usuario. Si triunfará o no, sólo el tiempo lo dirá,. Lo que es seguro es que, a cada nuevo proyecto que se os plantee, tendréis por obligación que meter en la ecuación de frameworks a usar, la variable "Blazor".
+Blazor y en especial Blazor WebAssembly ha venido para quedarse. Es un framework muy completo que Microsoft está apostando fuerte para desarrollos en los que se requiera una alta carga de desarrollo frond-end, en especial si se requieren interfaces muy enriquecidas e interactivas para el usuario. Si triunfará o no, sólo el tiempo lo dirá. Lo que es seguro es que, a cada nuevo proyecto que se os plantee, tendréis que meter en la ecuación de frameworks a utilizar la variable "Blazor".
 
 Y como siempre, cualquier duda o sugerencia, estoy disponible en mis redes sociales :)
