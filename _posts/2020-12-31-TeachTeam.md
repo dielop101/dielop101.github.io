@@ -28,10 +28,10 @@ Imaginemos un incendio. El fuego sería el primer objetivo a abordar para el equ
 ## Miembros del equipo
 
 El equipo ideal se compondrá en torno a 5 personas:
-	- 1 <b>analista</b>: será la referencia funcional del producto. Tiene la mayor capacidad de comprensión de los objetivos. Sabe comunicar las necesidades al resto del equipo. No es solo un perfil funcional, sino que tiene capacidad técnica.
-	- al menos 1 perfil <b>arquitecto del software</b>, referente en el diseño de la arquitectura idónea para solucionar problemas.
-	- al menos 1 perfil de <b>líder técnico</b>, capaz de orquestar las necesidades técnicas del equipo.
-	- al menos 1 perfil <b>QA</b>, encargado de diseñar los casos de prueba y e capaz de detectar los puntos necesarios de automatización del producto.
+ - 1 <b>analista</b>: será la referencia funcional del producto. Tiene la mayor capacidad de comprensión de los objetivos. Sabe comunicar las necesidades al resto del equipo. No es solo un perfil funcional, sino que tiene capacidad técnica.
+ - al menos 1 perfil <b>arquitecto del software</b>, referente en el diseño de la arquitectura idónea para solucionar problemas.
+ - al menos 1 perfil de <b>líder técnico</b>, capaz de orquestar las necesidades técnicas del equipo.
+ - al menos 1 perfil <b>QA</b>, encargado de diseñar los casos de prueba y e capaz de detectar los puntos necesarios de automatización del producto.
 	
 En caso de ser necesario, se requerirá un experto en UX, diseño y/o maquetación, lo que podrá incrementar el número de integrantes del equipo en uno.
 
