@@ -35,11 +35,11 @@ El equipo ideal se compondrá en torno a 5 personas:
 	
 En caso de ser necesario, se requerirá un experto en UX, diseño y/o maquetación, lo que podrá incrementar el número de integrantes del equipo en uno.
 
-Cuando identifico perfiles, no identifico personas, es decir, una persona del equipo podrá tener varios perfiles (por ejemplo, la persona con perfil de lider técnico también podría tener el perfil de arquitecto). 
+Cuando identifico perfiles, no identifico personas, es decir, <b>una persona del equipo podría tener varios perfiles</b> (por ejemplo, la persona con perfil de lider técnico también podría tener el perfil de arquitecto). 
 
 ## Características del equipo
 
-Los perfiles han de tener cierta experiencia (llamémosle senior). No contemplo en el equipo más de una persona con poca experiencia (llamémosle junior), o con nula experiencia (llamémosle becario). Esto implica que a un junior o becario no se le debe asignar ningún perfil específico.
+Los perfiles han de tener <b>cierta experiencia</b> (llamémosle senior). No contemplo en el equipo más de una persona con poca experiencia (llamémosle junior), o con nula experiencia (llamémosle becario). Esto implica que a un junior o becario no se le debe asignar ningún perfil específico, y <b>máximo 1 persona junior/becario por equipo.</b>
 
 Absolutamente <b>todos los miembros del equipo</b> deberán tener al menos conocimiento técnico de:
  - <b>Desarrollo de software</b>: todos los integrantes saben programar en mayor o menor medida.
@@ -60,11 +60,11 @@ Sí creo que <b>el mejor marco de trabajo agile es Scrum</b> (o al menos, el uso
 
  - El equipo trabajará en <b>escenarios semanales</b> para aportar el valor necesario al objetivo a abordar en dicha semana. Considero que más de una semana hace que el equipo tenga menos capacidad de precisión en las estimaciones de las tareas necesarias para lograr el/los objetivos, y menos de una semana no lo considero productivo. Además pueden manejar con mayor flexibilidad problemas venideros (un problema surjido durante la semana puede ser abordado la siguiente semana).
 
- - Las reuniones son claras y bien definidas, en cuanto a qué se quiere abordar y qué se quiere conseguir. Todo lo acordado en la reunión deberá ser documentado. 
+ - <b>Las reuniones son claras y bien definidas</b>, en cuanto a qué se quiere abordar y qué se quiere conseguir. Todo lo acordado en la reunión deberá ser documentado. 
 
  - No veo necesario el uso obligado de la daily meeting. En caso de tener que levantar la mano al resto del equipo por algún problema, se realizará la reunión pertinente.
 
- - Antes de finalizar el día, cada integrante del equipo deberá reservarse un espacio de tiempo de un máximo de 30 minutos. Será una reunión con otros compañeros del equipo. Se considerará un espacio formativo, donde se realizará pair programming, feedback técnico y aprendizaje funcional. Esto hará que cada miembro mejore técnicamente, funcionalmente y como equipo, mientras el objetivo semanal sigue su curso.
+ - Antes de finalizar el día, <b>cada integrante del equipo deberá reservarse un espacio de tiempo de un máximo de 30 minutos</b>. Será una reunión con otros compañeros del equipo. Se considerará un <b>espacio formativo</b>, donde se realizará pair programming, feedback técnico y aprendizaje funcional. Esto hará que cada miembro mejore técnicamente, funcionalmente y como equipo, mientras el objetivo semanal sigue su curso.
  
 Como apreciación, he tratado de enfocarme en el trabajo del día a día de las personas. Dejo de lado entrar en detalle en procesos más específicos (QAs, UATs, CD/CI, ...), ya que daría para un libro :)
 
@@ -72,7 +72,7 @@ Como apreciación, he tratado de enfocarme en el trabajo del día a día de las 
 
 La complejidad de crear un equipo técnico que funcione en armonía es altísima, y supone el mayor reto de las empresas para poder abordar el gap que existe entre producto y tecnología. He tratado de documentar pequeñas píldoras que puedan ayudaros en el trabajo de vuestro día a día, siempre con la intención de mejorar como profesionales.
 
-Obviamente esto son todo opiniones personales, derivados de mi propia experiencia. Con ello, no pretendo imponer ni mucho menos ningún tipo de esquema de trabajo. Como he comentado anteriormente, cada equipo es un mundo, así como cada empresa también lo es.
+Obviamente esto son todo <b>opiniones personales, derivados de mi propia experiencia</b>. Con ello, no pretendo imponer ni mucho menos ningún tipo de esquema de trabajo. Como he comentado anteriormente, cada equipo es un mundo, así como cada empresa también lo es.
 
 Para finalizar, este post no pretende ser un post muerto. Me gustaría poder retroalimentarlo y mejorarlo con el tiempo, con opiniones de cualquier persona que lo haya leido, ver pros y contras, etc.
 
